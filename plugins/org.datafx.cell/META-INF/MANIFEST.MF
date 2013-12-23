@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DataFX Cell
+Bundle-SymbolicName: org.datafx.cell;singleton:=true
+Bundle-Version: 2.0.0.b7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: org.datafx.control,
+ org.datafx.control.cell

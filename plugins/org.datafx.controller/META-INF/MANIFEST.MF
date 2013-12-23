@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DataFX Controller
+Bundle-SymbolicName: org.datafx.controller;singleton:=true
+Bundle-Version: 2.0.0.b7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.datafx.core
+Export-Package: org.datafx.controller,
+ org.datafx.controller.context,
+ org.datafx.controller.flow,
+ org.datafx.controller.flow.action,
+ org.datafx.controller.flow.event,
+ org.datafx.controller.util
